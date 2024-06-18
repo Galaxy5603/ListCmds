@@ -57,5 +57,6 @@ listcmds = {
     [57] = print("!stats [plr], press F9 for looking stats"),
     [58] = print("!goto [plr], it'll tween to this player"),
     [59] = print("!gotonpc [npc], same for !goto [plr] but for npcs"),
+    [666] = warn("When a command is followed by true/false then re type the command to stop it"),
 }
 return(listcmds)
