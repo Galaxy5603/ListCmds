@@ -60,11 +60,11 @@ listcmds = {
     [60] = print("/gotonpc [npc], same for /goto [plr] but for npcs"),
     [61] = print("/bring [plr], will bring this player, NEED DRAGON CRUSH"),
     [62] = print("/stealthmode, self explanatory"),
-    [63] = print("/help1,/help2,/help3,HEAVEN MODE")
-    [64] = print("/shaders,SKINMODE")
-    [65] = print("/farm,/afr,AUTO FARM EARTH")
-    [66] = print("/kibr,/broly,AUTO BROLY KI MOVE")
-    [67] = print("/atop,/top,AUTO TOP KI MOVE")
+    [63] = print("/help1,/help2,/help3,HEAVEN MODE"),
+    [64] = print("/shaders,SKINMODE"),
+    [65] = print("/farm,/afr,AUTO FARM EARTH"),
+    [66] = print("/kibr,/broly,AUTO BROLY KI MOVE"),
+    [67] = print("/atop,/top,AUTO TOP KI MOVE"),
     [666] = warn("When a command is followed by true/false then re type the command to stop it"),
 }
 return(listcmds)
